@@ -1,6 +1,8 @@
+import { AppBar } from '@mui/material';
 import './App.css';
 
 import MiMenu from "./components/navbar/navbar";
+import Bar from "./components/Bar/bar";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
           tienda MUI
         </p>
         <MiMenu />
+        <Bar />
      </header>
     </div>
   );

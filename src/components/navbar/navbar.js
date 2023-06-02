@@ -24,8 +24,8 @@ const MiMenu = () => {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-      <img class="ui medium circular image gatin" src="http://placekitten.com/100/100"></img>
+      <Box clasName="estilosMenu" sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+      <img className="ui medium circular image gatin" src="http://placekitten.com/100/100"></img>
         <Typography sx={{ minWidth: 100 }}>Contacto</Typography>
         <Typography sx={{ minWidth: 100 }}>Perfil</Typography>       
         <Tooltip title="Account settings">
@@ -41,7 +41,7 @@ const MiMenu = () => {
           </IconButton>
         </Tooltip>
       </Box>
-      <Menu
+      <Menu className='estilosMenu'
         anchorEl={anchorEl}
         id="account-menu"
         open={open}

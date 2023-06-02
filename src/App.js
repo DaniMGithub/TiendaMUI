@@ -1,22 +1,22 @@
 import { AppBar } from '@mui/material';
 import './App.css';
 
+//mi navbar o menu
 import MiMenu from "./components/navbar/navbar";
+//en Boxsx está el banner
 import BoxSx from "./components/header/header";
+import ImageListItem from '@mui/material/ImageListItem';
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          tienda MUI
-        </p>
-       <img class="ui medium circular image gatito" src="http://placekitten.com/100/100"></img>
+      <header className="App-header">              
         <BoxSx />
-        <MiMenu />
-
-        
+        <MiMenu />    
+      
      </header>
     </div>
   );

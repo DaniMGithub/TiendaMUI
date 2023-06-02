@@ -1,0 +1,13 @@
+.cajaHeader{
+    align-self: center;
+    margin: 5%;
+    display: block;
+    display: flex;
+}
+
+.titulo{
+    align-self: center;
+    margin: 30%;
+    display: block;
+    display: flex;
+}

@@ -12,6 +12,7 @@ function App() {
         <p>
           tienda MUI
         </p>
+       <img class="ui medium circular image gatito" src="http://placekitten.com/100/100"></img>
         <BoxSx />
         <MiMenu />
 

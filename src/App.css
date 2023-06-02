@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+
+.gatito{
+  border-radius: 10%;
+}
 /*
 .App-logo {
   height: 40vmin;

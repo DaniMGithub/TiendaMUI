@@ -11,6 +11,7 @@ import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
+import "./navbar.css";
 
 const MiMenu = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -24,8 +25,9 @@ const MiMenu = () => {
   return (
     <React.Fragment>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <Typography sx={{ minWidth: 100 }}>Contact</Typography>
-        <Typography sx={{ minWidth: 100 }}>Profile</Typography>
+      <img class="ui medium circular image gatin" src="http://placekitten.com/100/100"></img>
+        <Typography sx={{ minWidth: 100 }}>Contacto</Typography>
+        <Typography sx={{ minWidth: 100 }}>Perfil</Typography>       
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}

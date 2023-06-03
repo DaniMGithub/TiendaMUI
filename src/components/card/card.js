@@ -8,27 +8,29 @@ import Typography from '@mui/material/Typography';
 import "./card.css";
 import { Container } from '@mui/material';
 
-const MiCard = () => {
+const MiCard = (props) => {
   return (
     <Container className='contenedorCards'>
     <Card sx={{ maxWidth: 300 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
+        image={props.img}
+        alt={props.name}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {props.name}
+        </Typography>
+        <Typography variant="h8" color="text.secondary">
+          {props.date}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {props.description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Compartir</Button>
+        <Button size="small">Aprender más</Button>
       </CardActions>
     </Card>
     </Container>

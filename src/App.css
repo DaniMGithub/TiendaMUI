@@ -7,17 +7,25 @@
 }
 
 .App-header {
-  background-color: #282c34; 
+  background-color: #22c1c3; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
+}
+
+.Body{
+  padding-left: 5%;
+  padding-right: 5%; 
+  background-color: #62bf98;
+  display: flex;
+  justify-content: space-evenly;
 }
 /*
 .App-logo {

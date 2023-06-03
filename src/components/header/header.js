@@ -19,8 +19,8 @@ const BoxSx = () => {
         '&:hover': {
         backgroundColor: 'primary.main', opacity: [0.9, 0.8, 0.7],          
         }, }}>
-      <img className="ui medium circular image" src="http://placekitten.com/300/300"/>      
-      <h1 className='titulo'>Tienda</h1>
+      <img className="ui medium circular image" src="https://source.unsplash.com/3Z70SDuYs5g/800x300"/>      
+      <h1 className='titulo'>Viajando..</h1>
     </Box>
     
     </React.Fragment>

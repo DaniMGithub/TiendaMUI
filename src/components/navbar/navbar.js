@@ -25,9 +25,9 @@ const MiMenu = () => {
   return (
     <React.Fragment>
       <Box clasName="estilosMenu" sx={{ display: 'flex', margin: "2%", alignItems: 'center', textAlign: 'center' }}>
-      <img className="ui medium circular image gatin" src="http://placekitten.com/100/100"></img>
-        <Typography sx={{ minWidth: 100 }}>Contacto</Typography>
-        <Typography sx={{ minWidth: 100 }}>Perfil</Typography>       
+      <img className="ui medium circular image gatin" src="https://i.imgur.com/G3M0MQs.png"></img>
+        <Typography sx={{ minWidth: 100 }}> Reserva tu viaje</Typography>
+        <Typography sx={{ minWidth: 100 }}>Contacto</Typography>       
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
@@ -37,7 +37,7 @@ const MiMenu = () => {
             aria-haspopup="true"
             aria-expanded={open ? 'true' : undefined}
           >
-            <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
+            <Avatar sx={{ width: 32, height: 32, backgroundColor: "black" }}>V</Avatar>
           </IconButton>
         </Tooltip>
       </Box>

@@ -1,4 +1,8 @@
 .contenedorCards{
-    display: inline-flex;
-    orientation: horizontal;
+    display: flex;
+    justify-content: space-evenly;
+    border-color: blueviolet;
+    border-radius: 5%;
+    border-style: double;
+    align-items: center;
 }

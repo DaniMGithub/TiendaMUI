@@ -9,14 +9,21 @@ import BoxSx from "./components/header/header";
 import MiCard from "./components/card/card";
 //Footer
 import Footer from "./components/footer/footer";
+//cardWidget
+import CardWid from "./components/cardw/cardw";
+//greeting de ItemListContainer
+import ItemListContainer from "./components/itemListC/itemListC";
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">              
-        <BoxSx />
-        <MiMenu />  
+      <header className="App-header">   
+        <CardWid />                  
+        <BoxSx />        
+        <MiMenu /> 
+       
        
        </header>
         <div className='Body'>
@@ -62,6 +69,7 @@ function App() {
 
         <footer>
           <Footer />
+          <ItemListContainer greeting="Buen fin de semana a todos!" />
         </footer>
     </div>
   );

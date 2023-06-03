@@ -16,6 +16,7 @@ import "./navbar.css";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
+
 const MiMenu = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -26,11 +27,12 @@ const MiMenu = () => {
     setAnchorEl(null);
   };
   return (
-    <React.Fragment>
+    <React.Fragment>      
+
       <Box clasName="estilosMenu" sx={{ display: 'flex', margin: "2%", alignItems: 'center', textAlign: 'center' }}>
       <img className="ui medium circular image gatin" src="https://i.imgur.com/G3M0MQs.png"></img>
       <Button variant="contained" color="success">Carta de viajes</Button>     
-      <Button variant="contained" color="success">Contato</Button>    
+      <Button variant="contained" color="success">Contato</Button>            
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
@@ -107,8 +109,9 @@ const MiMenu = () => {
           </ListItemIcon>
           Logout
         </MenuItem>
-      </Menu>
+      </Menu>     
     </React.Fragment>
+    
   );
 }
 

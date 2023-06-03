@@ -22,8 +22,8 @@ const BoxSx = () => {
         }, }}>
       <img className="ui medium circular image" src="https://source.unsplash.com/3Z70SDuYs5g/800x300"/>      
       <h1 className='titulo'>Viajando<AirplaneTicketIcon></AirplaneTicketIcon></h1>
-    </Box>
-    
+      
+    </Box>    
     </React.Fragment>
   );
 }

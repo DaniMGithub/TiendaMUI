@@ -20,7 +20,7 @@ const BoxSx = () => {
         backgroundColor: 'primary.main', opacity: [0.9, 0.8, 0.7],          
         }, }}>
       <img className="ui medium circular image" src="http://placekitten.com/300/300"/>      
-      <h1 className='titulo'>La tienda</h1>,
+      <h1 className='titulo'>Tienda</h1>
     </Box>
     
     </React.Fragment>

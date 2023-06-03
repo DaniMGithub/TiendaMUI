@@ -5,7 +5,8 @@ import './App.css';
 import MiMenu from "./components/navbar/navbar";
 //en Boxsx está el banner
 import BoxSx from "./components/header/header";
-import ImageListItem from '@mui/material/ImageListItem';
+//cards
+import MiCard from "./components/card/card";
 
 
 
@@ -15,7 +16,10 @@ function App() {
     <div className="App">
       <header className="App-header">              
         <BoxSx />
-        <MiMenu />    
+        <MiMenu />  
+        <MiCard />  
+        <MiCard /> 
+       
       
      </header>
     </div>

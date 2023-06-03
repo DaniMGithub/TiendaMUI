@@ -7,6 +7,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import "./card.css";
 import { Container } from '@mui/material';
+import ShareIcon from '@mui/icons-material/Share';
+import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 
 const MiCard = (props) => {
   return (
@@ -15,22 +17,23 @@ const MiCard = (props) => {
       <CardMedia
         sx={{ height: 140 }}
         image={props.img}
-        alt={props.name}
+        alt={props.name}      
+        
       />
-      <CardContent>
+      <CardContent className='cartaContenido'>
         <Typography gutterBottom variant="h5" component="div">
           {props.name}
         </Typography>
-        <Typography variant="h8" color="text.secondary">
+        <Typography variant="h8" color="black">
           {props.date}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="black">
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Compartir</Button>
-        <Button size="small">Aprender más</Button>
+      <CardActions>      
+        <Button variant="contained">Compartir <ShareIcon></ShareIcon></Button>
+        <Button variant="contained">Más info<FlightTakeoffIcon></FlightTakeoffIcon></Button>
       </CardActions>
     </Card>
     </Container>

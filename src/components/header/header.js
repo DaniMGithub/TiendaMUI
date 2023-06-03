@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import ImageListItem from '@mui/material/ImageListItem';
 import "./header.css";
+import AirplaneTicketIcon from '@mui/icons-material/AirplaneTicket';
 
 const BoxSx = () => {
   return (    
@@ -20,7 +21,7 @@ const BoxSx = () => {
         backgroundColor: 'primary.main', opacity: [0.9, 0.8, 0.7],          
         }, }}>
       <img className="ui medium circular image" src="https://source.unsplash.com/3Z70SDuYs5g/800x300"/>      
-      <h1 className='titulo'>Viajando..</h1>
+      <h1 className='titulo'>Viajando<AirplaneTicketIcon></AirplaneTicketIcon></h1>
     </Box>
     
     </React.Fragment>

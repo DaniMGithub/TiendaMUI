@@ -1,8 +1,13 @@
 .contenedorCards{
     display: flex;
-    justify-content: space-evenly;
-    border-color: blueviolet;
-    border-radius: 5%;
-    border-style: double;
+    justify-content: space-evenly;   
     align-items: center;
+    :hover{        
+        opacity: .9;
+    }
+    
+}
+
+.cartaContenido{
+    background-color: #87be7f;
 }

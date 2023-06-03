@@ -12,6 +12,8 @@ import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 import "./navbar.css";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
 
 const MiMenu = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -26,7 +28,7 @@ const MiMenu = () => {
     <React.Fragment>
       <Box clasName="estilosMenu" sx={{ display: 'flex', margin: "2%", alignItems: 'center', textAlign: 'center' }}>
       <img className="ui medium circular image gatin" src="https://i.imgur.com/G3M0MQs.png"></img>
-        <Typography sx={{ minWidth: 100 }}> Reserva tu viaje</Typography>
+        <Typography sx={{ minWidth: 100 }}> Carta de viajes</Typography>
         <Typography sx={{ minWidth: 100 }}>Contacto</Typography>       
         <Tooltip title="Account settings">
           <IconButton
@@ -38,8 +40,11 @@ const MiMenu = () => {
             aria-expanded={open ? 'true' : undefined}
           >
             <Avatar sx={{ width: 32, height: 32, backgroundColor: "black" }}>V</Avatar>
-          </IconButton>
+          </IconButton>        
         </Tooltip>
+        <IconButton color="black" aria-label="add to shopping cart">
+            <ShoppingCartIcon />
+        </IconButton>
       </Box>
       <Menu className='estilosMenu'
         anchorEl={anchorEl}

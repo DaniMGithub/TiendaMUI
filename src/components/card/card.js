@@ -11,9 +11,10 @@ import ShareIcon from '@mui/icons-material/Share';
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
+
 const MiCard = (props) => {
   return (
-    <Container className='contenedorCards'>
+    <Container className='contenedorCards'>     
     <Card sx={{ maxWidth: 300 }}>
       <CardMedia
         sx={{ height: 140 }}

@@ -14,6 +14,9 @@ import Logout from '@mui/icons-material/Logout';
 import Button from '@mui/material/Button';
 import "./navbar.css";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Container } from '@mui/material';
+//cardWidget
+import CardWid from "../cardw/cardw";
 
 
 
@@ -28,7 +31,7 @@ const MiMenu = () => {
   };
   return (
     <React.Fragment>      
-
+      <Container>      
       <Box clasName="estilosMenu" sx={{ display: 'flex', margin: "2%", alignItems: 'center', textAlign: 'center' }}>
       <img className="ui medium circular image gatin" src="https://i.imgur.com/G3M0MQs.png"></img>
       <Button variant="contained" color="success">Carta de viajes</Button>     
@@ -44,10 +47,8 @@ const MiMenu = () => {
           >
             <Avatar sx={{ width: 32, height: 32, backgroundColor: "black" }}>V</Avatar>
           </IconButton>        
-        </Tooltip>
-        <IconButton color="black" aria-label="add to shopping cart">
-            <ShoppingCartIcon />
-        </IconButton>
+        </Tooltip>       
+        <CardWid /> 
       </Box>
       <Menu className='estilosMenu'
         anchorEl={anchorEl}
@@ -110,6 +111,7 @@ const MiMenu = () => {
           Logout
         </MenuItem>
       </Menu>     
+      </Container>
     </React.Fragment>
     
   );

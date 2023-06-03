@@ -1,12 +1,15 @@
 import React from 'react';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import IconButton from '@mui/material/IconButton';
+import Button from '@mui/material/Button';
 
 
 const CardWid = () => {
   return (
-    <div style={{display: "flex", display:'inline', width: "30%", margin: "0%" }}>       
-    <ShoppingCartIcon/> 
-    <p>2</p>              
+    <div>       
+     <IconButton color="black" aria-label="add to shopping cart">
+            <ShoppingCartIcon />
+        </IconButton>               
     </div>    
   )
 }

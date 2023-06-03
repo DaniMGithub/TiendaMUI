@@ -24,7 +24,7 @@ const MiMenu = () => {
   };
   return (
     <React.Fragment>
-      <Box clasName="estilosMenu" sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+      <Box clasName="estilosMenu" sx={{ display: 'flex', margin: "2%", alignItems: 'center', textAlign: 'center' }}>
       <img className="ui medium circular image gatin" src="http://placekitten.com/100/100"></img>
         <Typography sx={{ minWidth: 100 }}>Contacto</Typography>
         <Typography sx={{ minWidth: 100 }}>Perfil</Typography>       

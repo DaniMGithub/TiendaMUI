@@ -1,6 +1,7 @@
 .cajaHeader{
     align-self: center;
     margin: 5%;
+    margin-bottom: 0%;
     display: block;
     display: flex;
 }

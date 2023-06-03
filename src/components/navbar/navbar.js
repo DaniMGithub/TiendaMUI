@@ -11,6 +11,7 @@ import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
+import Button from '@mui/material/Button';
 import "./navbar.css";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
@@ -28,8 +29,8 @@ const MiMenu = () => {
     <React.Fragment>
       <Box clasName="estilosMenu" sx={{ display: 'flex', margin: "2%", alignItems: 'center', textAlign: 'center' }}>
       <img className="ui medium circular image gatin" src="https://i.imgur.com/G3M0MQs.png"></img>
-        <Typography sx={{ minWidth: 100 }}> Carta de viajes</Typography>
-        <Typography sx={{ minWidth: 100 }}>Contacto</Typography>       
+      <Button variant="contained" color="success">Carta de viajes</Button>     
+      <Button variant="contained" color="success">Contato</Button>    
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}

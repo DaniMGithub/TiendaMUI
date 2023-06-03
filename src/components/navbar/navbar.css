@@ -1,12 +1,22 @@
 .estilosMenu{
-    display: block;
     display: flex;
     align-self: center;
+    justify-content: space-evenly;   
+    margin-right: 3%;
+    margin-left: 3%;
     background-color: aquamarine;
-    border: 1%;
-    border-color: black;    
+    border: 1%;   
+    border-color: black; 
+    :hover{        
+        opacity: .9;
+    }   
+     
 }
 
 .gatin{
     width: 20%;
+    margin-right: 3%;
+    :hover{        
+        opacity: .9;
+    }
 }

@@ -7,8 +7,8 @@ import MiMenu from "./components/navbar/navbar";
 import BoxSx from "./components/header/header";
 //cards
 import MiCard from "./components/card/card";
-
-
+//Footer
+import Footer from "./components/footer/footer";
 
 
 function App() {
@@ -39,6 +39,9 @@ function App() {
             img="https://source.unsplash.com/t20pc32VbrU/800x600"            
             />  
         </div>
+        <footer>
+          <Footer />
+        </footer>
     </div>
   );
 }

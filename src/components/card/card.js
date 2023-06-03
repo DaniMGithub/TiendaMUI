@@ -9,6 +9,7 @@ import "./card.css";
 import { Container } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 const MiCard = (props) => {
   return (
@@ -31,9 +32,9 @@ const MiCard = (props) => {
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>      
-        <Button variant="contained">Compartir <ShareIcon></ShareIcon></Button>
+      <CardActions>    
         <Button variant="contained">Más info<FlightTakeoffIcon></FlightTakeoffIcon></Button>
+        <Button variant="contained"><AddShoppingCartIcon></AddShoppingCartIcon></Button>
       </CardActions>
     </Card>
     </Container>

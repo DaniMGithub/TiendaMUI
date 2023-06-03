@@ -1,6 +1,7 @@
 .contenedorCards{
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly; 
+    padding-left: 3%;  
     align-items: center;
     :hover{        
         opacity: .9;

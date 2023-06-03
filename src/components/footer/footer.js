@@ -6,7 +6,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <Box className="foot">
-      <h7>Viajando© - Todos los derechos reservados </h7>
+      <h4>Viajando© - Todos los derechos reservados </h4>
     </Box>
   );
 }

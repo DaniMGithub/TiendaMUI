@@ -1,0 +1,284 @@
+[
+    {
+        "id": 1,
+        "titulo": "Talampaya",
+        "fecha": "Enero 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina",        
+        "imagen": "https://source.unsplash.com/pHANr-CpbYM/800x600",
+        "precio": 1500
+    },
+    {
+        "id": 2,
+        "titulo": "Ruta del Vino",
+        "fecha": "Julio 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://source.unsplash.com/uOi3lg8fGl4/800x600",
+        "precio": 1000
+    },
+    {
+        "id": 3,
+        "titulo": "Puerto Madryn",
+        "fecha": "Todo el año",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://source.unsplash.com/t20pc32VbrU/800x600",
+        "precio": 2000
+    },
+    {
+        "id": 4,
+        "titulo": "Cerro Tronador",
+        "fecha": "Julio 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://source.unsplash.com/2Bjq3A7rGn4/800x600",
+        "precio": 2000
+    },
+    {
+        "id": 5,
+        "titulo": "Bosque de Arrayanes",
+        "fecha": "Todo el año",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://source.unsplash.com/9O1oQ9SzQZQ/800x600",
+        "precio": 800
+    },
+    {
+        "id": 6,
+        "titulo": "Volcan Tonga",
+        "fecha": "Suspendido",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Oceanía", 
+        "imagen": "https://source.unsplash.com/E4944K_4SvI/800x600",
+        "precio": 800
+    },
+    {
+        "id": 7,
+        "titulo": "Ciudad de México",
+        "fecha": "Diciembre 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Norteamerica", 
+        "imagen": "https://images.unsplash.com/photo-1605443791607-80a259dd3c3c?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 5000
+    },
+    {
+        "id": 8,
+        "titulo": "Tokio",
+        "fecha": "Diciembre 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Asia", 
+        "imagen": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 8000
+    },
+    {
+        "id": 9,
+        "titulo": "China",
+        "fecha": "Octubre 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Asia", 
+        "imagen": "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 6000
+    },
+    {
+        "id": 10,
+        "titulo": "Desierto del Sahara",
+        "fecha": "Agosto 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1608568953840-48a6c221e269?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 6000
+    },
+    {
+        "id": 12,
+        "titulo": "Egipto",
+        "fecha": "Octubre 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1608546043931-6c9678ea9feb?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 6000
+    },
+    {
+        "id": 13,
+        "titulo": "Pirámides de egipto",
+        "fecha": "Octubre 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1599656531273-70bbbe4272ff?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 6000
+    },
+    {
+        "id": 14,
+        "titulo": "Chaco",
+        "fecha": "Octubre 2026",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://images.unsplash.com/photo-1475378902367-dc8f9eae83e8?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 100
+    },
+    {
+        "id": 15,
+        "titulo": "Peru",
+        "fecha": "Mayo 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "América Latina", 
+        "imagen": "https://images.unsplash.com/photo-1476846097969-46bc4cd7da07?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 1000
+    },
+    {
+        "id": 16,
+        "titulo": "Guadalajara",
+        "fecha": "Octubre 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Norteamerica", 
+        "imagen": "https://images.unsplash.com/photo-1518105515732-8df2a35c0c56?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 6000
+    },
+    {
+        "id": 17,
+        "titulo": "Corales Colombianos",
+        "fecha": "Octubre 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "América Latina", 
+        "imagen": "https://images.unsplash.com/photo-1594002513039-5acd2005c04a?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 2000
+    },
+    {
+        "id": 18,
+        "titulo": "Caribe",
+        "fecha": "Enero 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "América Latina", 
+        "imagen": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 3000
+    },
+    {
+        "id": 19,
+        "titulo": "Chile chico",
+        "fecha": "Noviembre 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "América Latina", 
+        "imagen": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 900
+    },
+    {
+        "id": 20,
+        "titulo": "Australia",
+        "fecha": "Octubre 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Asia", 
+        "imagen": "https://images.unsplash.com/photo-1580541631971-a0e8ce42e97f?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 6000
+    },
+    {
+        "id": 21,
+        "titulo": "China",
+        "fecha": "Octubre 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Asia", 
+        "imagen": "",
+        "precio": 6000
+    },
+    {
+        "id": 22,
+        "titulo": "Mar muerto",
+        "fecha": "Abril 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1562257443-f7a85953d852?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 4000
+    },
+    {
+        "id": 23,
+        "titulo": "Sabana Africana",
+        "fecha": "Abril 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1671846280234-e3dcd72a98f1?ixlib=rb-4.0.3",
+        "precio": 3500
+    },
+    {
+        "id": 24,
+        "titulo": "Bariloche",
+        "fecha": "Todo el año",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://images.unsplash.com/photo-1620753922499-f6c59718bcdc?ixlib=rb-4.0.3",
+        "precio": 100
+    },
+    {
+        "id": 25,
+        "titulo": "Costa Rica",
+        "fecha": "Junio 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Norteamerica", 
+        "imagen": "https://images.unsplash.com/photo-1612950500101-0a792a8f3b16?ixlib=rb-4.0.3",
+        "precio": 3500
+    },
+    {
+        "id": 26,
+        "titulo": "Berlín",
+        "fecha": "Diciembre 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Europa", 
+        "imagen": "https://images.unsplash.com/photo-1606663974085-618468f72d3a?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 11500
+    },
+    {
+        "id": 27,
+        "titulo": "Ibiza",
+        "fecha": "Abril 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Europa", 
+        "imagen": "https://images.unsplash.com/photo-1484804959297-65e7c19d7c9f?ixlib=rb-4.0.3",
+        "precio": 13500
+    },
+    {
+        "id": 28,
+        "titulo": "Portugal",
+        "fecha": "Julio 2023",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Europa", 
+        "imagen": "https://images.unsplash.com/photo-1661769934431-cc06cfd72d4c?ixlib=rb-4.0.3",
+        "precio": 9500
+    },
+    {
+        "id": 29,
+        "titulo": "Dubai",
+        "fecha": "Marzo 2025",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1590758351375-6a95b47f98d3?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 3500
+    },
+    {
+        "id": 30,
+        "titulo": "París",
+        "fecha": "Febrero 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Europa", 
+        "imagen": "https://images.unsplash.com/photo-1555929940-06750bf1ee79?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 23500
+    },
+    {
+        "id": 31,
+        "titulo": "Italia",
+        "fecha": "Enero 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Africa", 
+        "imagen": "https://images.unsplash.com/photo-1603378995290-8d4ce0495ddd?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 11500
+    },
+    {
+        "id": 32,
+        "titulo": "Las grutas",
+        "fecha": "Abril 2024",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "categoria": "Argentina", 
+        "imagen": "https://images.unsplash.com/photo-1505673542670-a5e3ff5b14a3?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+        "precio": 100
+    }
+]
+
+
+
